@@ -40,3 +40,4 @@ merge: pega somente os códigos que funcionar e junte na branch master, onde vai
 git branch: mostra as branch disponíveis(a marcada com * e verde, é a branch que estamos utilizando no momento)
 git branch staging : cria uma nova branch chamado staging(nome para uma branch que recebe atualização que nao estão testadas em produção), para criar uma branch de acordo com o que você esta fazendo, use git branch nome.
 git checkout nome da branch: muda as branch
+git push --set-upstream origin nome da branch: da push e leva pro github 
