@@ -65,3 +65,8 @@ git checkout -b <nome-do-branch>: cria uma nova branch e já muda pra essa branc
 git push -u origin <nome-do-branch> ou git push --set-upstream origin nome da branch : cria a branch remotamente, podendo ser acessada no github
 git branch: lista as branch local
 git branch -a: ve as branch remota
+
+----------------------------10 pull request----------------------------------------------------------------
+solicitação para um programador aprovar a mudança do codigo.
+
+
