@@ -61,4 +61,7 @@ git pull:usado para buscar e baixar conteudo de repositorio remoto e fazer a atu
 7.mergear(unir) o código da branch temporária na branch principal(depois de testar)
 8.git push da branch principal    
 
-git checkout -b <nome-do-branch>: cria uma nova branch e já muda pra essa branch
+git checkout -b <nome-do-branch>: cria uma nova branch e já muda pra essa branch ( branch local)
+git push -u origin <nome-do-branch> ou git push --set-upstream origin nome da branch : cria a branch remotamente, podendo ser acessada no github
+git branch: lista as branch local
+git branch -a: ve as branch remota
