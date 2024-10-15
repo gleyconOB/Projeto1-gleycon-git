@@ -36,3 +36,7 @@ git reset --hard <id da versão para qual vc quer voltar>: navega entre as vers�
 ----------------------------8 Branch, oque é, e como criar------------------------------------------------
 galhos: local para armazenar o versionamento do seu código - a master sempre é a principal.
 merge: pega somente os códigos que funcionar e junte na branch master, onde vai ficar estável, as outras branch são criadas para ir testando, usar funcionalidades novas.
+
+git branch: mostra as branch disponíveis(a marcada com * e verde, é a branch que estamos utilizando no momento)
+git branch staging : cria uma nova branch chamado staging(nome para uma branch que recebe atualização que nao estão testadas em produção), para criar uma branch de acordo com o que você esta fazendo, use git branch nome.
+git checkout nome da branch: muda as branch
