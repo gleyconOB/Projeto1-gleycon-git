@@ -48,3 +48,16 @@ git checkout master: altera pra branch principal
 git merge nome da branch que nao e a principal: puxa informa da branch para a atual.
 antes de dar merge, verificar que esta com a versão mais atualizada, antes do merge usar git pull
 git pull:usado para buscar e baixar conteudo de repositorio remoto e fazer a atualização imediata ao repositorio local para que os conteudos sejam iguais.
+git merge nome branch segundarario: puxa todas as atualizações da branch secundaria para a principal
+antes de dar merge, verificar que esta com a versão mais atualizada, antes do merge usar git pull
+git pull:usado para buscar e baixar conteudo de repositorio remoto e fazer a atualização imediata ao repositorio local para que os conteudos sejam iguais.
+
+1. git pull na branch principal
+2. gerar uma nova branch a partir da branch principal 
+3. trabalhar e adicionar novas funcionalidades na nova branch que criou
+4.finalizar o trabalho na branch temporária
+5.git checkout na branch principal
+6.git pull  
+7.mergear(unir) o código da branch temporária na branch principal(depois de testar)
+8.git push da branch principal    
+
