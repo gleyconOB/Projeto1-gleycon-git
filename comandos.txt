@@ -1,16 +1,16 @@
--------------------------------------iniciar repositório--------------------------------------------------
+-------------------------------------1 iniciar repositório--------------------------------------------------
 
 git init: cria um novo repositório do git, ou converte um projeto não versionado em um repositório do git.
 git status: ver o local onde o código esta, ou se esta atualizado ou não.
 *Commits: são versões do código.
 *Untracked files: os arquivos não foram adicionados ao controle de versões, aponta quais os arquivos não estão no controle de versão. 
 
-----------------------------adicionar arquivos ao controle de versão--------------------------------------
+----------------------------2 adicionar arquivos ao controle de versão--------------------------------------
 
 git add "nome do arquivo.tipo do aquivo": prepara o arquivo para o controle de versão. 
 giti add .: adiciona todos os arquivos pendentes no controle de versão.
 
-----------------------------criar versões do código com commit--------------------------------------------
+----------------------------3 criar versões do código com commit--------------------------------------------
 
 git commit -m "mensagem que representa oque foi feito naquela versão": cria a primeira versão "commit inicial"
 git config --global user.email"seuemail@gmail.com": é usado para configurar o e-mail de um usuário no sistema de controle de versão Git
@@ -18,11 +18,17 @@ git config --global user.email"seuemail@gmail.com": é usado para configurar o e
 *--global: opção que define a configuração em nivel global, as configurações serão aplicadas a todos os repositorios do usuario no sistema 
 git config --global user.name"seu nome": define o nome do usuario no sistema de controle de versão.
 
-----------------------------enviar alterações com git push------------------------------------------------
+----------------------------4 enviar alterações com git push------------------------------------------------
 
 git remote add origin <url do seu repositorio>: adiciona um repositorio remoto no endereço
 *branch: divisões ou versões diferentes do código, que estão sendo versionadas de forma separada.(normalmente enviar para a master)
  git push --set-upstream origin master.
 
-----------------------------atualização do codigo------------------------------------------------
+----------------------------5 atualização do codigo------------------------------------------------
+alterar algum arquivo, depois seguir o passo 2 e 3 commit -m, depois o 4 git push
 
+----------------------------6 historico de atualização------------------------------------------------
+git reflog: permite visualizar o historio de referencias do git, incluindo todos os commits que afetaram o repositório(ótimo para recuperar alterações desfeitas ou perdidas.
+
+----------------------------7 navegar entre versões dos códigos------------------------------------------------
+git reset --hard <id da versão para qual vc quer voltar>:
