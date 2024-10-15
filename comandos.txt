@@ -1,0 +1,1 @@
+git init: cria um novo repositório do git, ou converte um projeto não versionado em um repositório do git 
