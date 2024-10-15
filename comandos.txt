@@ -41,3 +41,5 @@ git branch: mostra as branch disponíveis(a marcada com * e verde, é a branch q
 git branch staging : cria uma nova branch chamado staging(nome para uma branch que recebe atualização que nao estão testadas em produção), para criar uma branch de acordo com o que você esta fazendo, use git branch nome.
 git checkout nome da branch: muda as branch
 git push --set-upstream origin nome da branch: da push e leva pro github 
+
+----------------------------9 merge, unir arquivos na branch------------------------------------------------
