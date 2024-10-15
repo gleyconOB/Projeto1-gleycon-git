@@ -2,7 +2,7 @@
 
 git init: cria um novo repositório do git, ou converte um projeto não versionado em um repositório do git.
 git status: ver o local onde o código esta, ou se esta atualizado ou não.
-*Commits: são versões do código.
+*Commits: são versões do código.(copias do código)
 *Untracked files: os arquivos não foram adicionados ao controle de versões, aponta quais os arquivos não estão no controle de versão. 
 
 ----------------------------2 adicionar arquivos ao controle de versão--------------------------------------
@@ -31,4 +31,8 @@ alterar algum arquivo, depois seguir o passo 2 e 3 commit -m, depois o 4 git pus
 git reflog: permite visualizar o historio de referencias do git, incluindo todos os commits que afetaram o repositório(ótimo para recuperar alterações desfeitas ou perdidas.
 
 ----------------------------7 navegar entre versões dos códigos------------------------------------------------
-git reset --hard <id da versão para qual vc quer voltar>:
+git reset --hard <id da versão para qual vc quer voltar>: navega entre as versão, mas consultar seu analista se na empresa usam esse método, ou pode olhar a documentação.
+
+----------------------------8 Branch, oque é, e como criar------------------------------------------------
+galhos: local para armazenar o versionamento do seu código - a master sempre é a principal.
+merge: pega somente os códigos que funcionar e junte na branch master, onde vai ficar estável, as outras branch são criadas para ir testando, usar funcionalidades novas.
