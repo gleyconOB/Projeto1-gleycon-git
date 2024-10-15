@@ -43,3 +43,8 @@ git checkout nome da branch: muda as branch
 git push --set-upstream origin nome da branch: da push e leva pro github 
 
 ----------------------------9 merge, unir arquivos na branch------------------------------------------------
+altere para a branch principal
+git checkout master: altera pra branch principal
+git merge nome da branch que nao e a principal: puxa informa da branch para a atual.
+antes de dar merge, verificar que esta com a versão mais atualizada, antes do merge usar git pull
+git pull:usado para buscar e baixar conteudo de repositorio remoto e fazer a atualização imediata ao repositorio local para que os conteudos sejam iguais.
