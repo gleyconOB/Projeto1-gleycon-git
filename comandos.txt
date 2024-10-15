@@ -79,5 +79,16 @@ solicitação para um programador aprovar a mudança do codigo.
 aba reviews são as pessoas que vao revisar seu projeto e código.
 caso negado, ver os comentários, fazer as correções, e enviar um novo commit,comentar(marcando as pessoas que falaram que o código não estava ok, dizendo que fez as alterações que foram solicitadas), não abrir outra pull request
 
+----------------------------11 gitignore----------------------------------------------------------------
+exclui arquivo ou código do controle de versão
+1. crie um arquivo gitignore com o código touch .gitignore(criar na branch master)
+2. abra com bloco de notas o arquivo gitignore(aqui dentro você determina quais pastas ou arquivo você não quer no controle de versionamento)
+3.git status - para ver se esta certo o arquivo gitignore
+4.git add .
+5.git status
+6. git commit -m "add gitignore"
+7. git push  
+
+
 
 
