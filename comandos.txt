@@ -1,1 +1,28 @@
-git init: cria um novo repositório do git, ou converte um projeto não versionado em um repositório do git 
+-------------------------------------iniciar repositório--------------------------------------------------
+
+git init: cria um novo repositório do git, ou converte um projeto não versionado em um repositório do git.
+git status: ver o local onde o código esta, ou se esta atualizado ou não.
+*Commits: são versões do código.
+*Untracked files: os arquivos não foram adicionados ao controle de versões, aponta quais os arquivos não estão no controle de versão. 
+
+----------------------------adicionar arquivos ao controle de versão--------------------------------------
+
+git add "nome do arquivo.tipo do aquivo": prepara o arquivo para o controle de versão. 
+giti add .: adiciona todos os arquivos pendentes no controle de versão.
+
+----------------------------criar versões do código com commit--------------------------------------------
+
+git commit -m "mensagem que representa oque foi feito naquela versão": cria a primeira versão "commit inicial"
+git config --global user.email"seuemail@gmail.com": é usado para configurar o e-mail de um usuário no sistema de controle de versão Git
+*git config: comando para configurar opções de usuario, repositorio ou sistema.
+*--global: opção que define a configuração em nivel global, as configurações serão aplicadas a todos os repositorios do usuario no sistema 
+git config --global user.name"seu nome": define o nome do usuario no sistema de controle de versão.
+
+----------------------------enviar alterações com git push------------------------------------------------
+
+git remote add origin <url do seu repositorio>: adiciona um repositorio remoto no endereço
+*branch: divisões ou versões diferentes do código, que estão sendo versionadas de forma separada.(normalmente enviar para a master)
+ git push --set-upstream origin master.
+
+----------------------------atualização do codigo------------------------------------------------
+
